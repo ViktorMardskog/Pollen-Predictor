@@ -24,8 +24,17 @@ Further, we also use lagged values (pollen levels for t-1, t-2, t-3) to make the
 
 We have trained one model per pollen type have have measured performance for each model:
 Alder pollen model: 
-Version	R²	MSE_h7	MSE_h6	MSE_h5	MSE_h4	MSE_h3	MSE_h2	MSE	MSE_h1
-1	0.8602	7.8990	7.2237	6.5259	5.8524	7.5775	8.4433	5.5935	5.7022
 
+| Metric  | Value |
+|---------|-------|
+| R²      | 0.8602 |
+| MSE_h1  | 5.7022 |
+| MSE     | 5.5935 |
+| MSE_h2  | 8.4433 |
+| MSE_h3  | 7.5775 |
+| MSE_h4  | 5.8524 |
+| MSE_h5  | 6.5259 |
+| MSE_h6  | 7.2237 |
+| MSE_h7  | 7.8990 |
 
 
