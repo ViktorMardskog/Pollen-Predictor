@@ -1,5 +1,4 @@
 # Pollen-Predictor
-Pollen Predictor
 
 This project is about pollen prediction in Stockholm. The project is inspired by the first lab in this course and we have re-used some of the code from our Lab 1 submission: 
 https://github.com/ViktorMardskog/mlfs-book-a-version
