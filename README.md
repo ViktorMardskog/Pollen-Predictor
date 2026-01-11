@@ -22,7 +22,7 @@ We use the following features:
 
 Further, we also use lagged values (pollen levels for t-1, t-2, t-3) to make the predictions (for day t). Autoregressive multi-step forecasting is used.
 
-We have trained one model per pollen type have have measured performance for each model:
+We have trained one model per pollen type have have measured performance for each model at different time horizons. Note that R squared is for predicting levels for day t with data from t-1 (same as for MSE_h1):
 
 Grass pollen model: 
 
