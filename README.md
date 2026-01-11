@@ -113,7 +113,9 @@ Ragweed pollen model:
 
 <!--![Ragweed Feature importance](pollen_model_ragweed_pollen/images/features.png)-->
 
-As we can see from these results, the models for ragweed, mugwort, and grass pollen performed quite well. The model for birch pollen also had a reasonable performance. However, the model for olive pollen performed poorly. This is expected as olive pollen is quite rare and low in Stockholm. The model for alder pollen also performed quite poorly. When we inspect the data for alder pollen, we can see that it is quite unpredictable. For example, we have this day in the test set:
+As we can see from these results, the models for ragweed, mugwort, and grass pollen performed quite well. The model for birch pollen also had a reasonable performance. We generally observe that MSE grows with the forcasting horizon which is expected as we use a autoregressive approach, meaning that errors will propagate. 
+
+Olive pollen is quite rare and low in Stockholm. This means that the task is rather trivial and therefore, we observe a R squared of 0. The model for alder pollen, however, performed quite poorly. When we inspect the data for alder pollen, we can see that it is quite unpredictable. For example, we have this day in the test set:
 2025-03-18T00:00,0.0
 2025-03-18T01:00,0.0
 2025-03-18T02:00,0.0
