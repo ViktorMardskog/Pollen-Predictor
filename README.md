@@ -29,8 +29,8 @@ Grass pollen model:
 | Metric  | Value |
 |---------|-------|
 | R²      | 0.8602 |
-| MSE_h1  | 5.7022 |
 | MSE     | 5.5935 |
+| MSE_h1  | 5.7022 |
 | MSE_h2  | 8.4433 |
 | MSE_h3  | 7.5775 |
 | MSE_h4  | 5.8524 |
@@ -43,8 +43,8 @@ Birch pollen model:
 | Metric  | Value |
 |---------|-------|
 | R²      | 0.5684 |
-| MSE_h1  | 14471 |
 | MSE     | 14195 |
+| MSE_h1  | 14471 |
 | MSE_h2  | 18645 |
 | MSE_h3  | 21971 |
 | MSE_h4  | 20586 |
@@ -57,8 +57,8 @@ Alder pollen model:
 | Metric  | Value |
 |---------|-------|
 | R²      | 0.0989 |
-| MSE_h1  | 87.275 |
 | MSE     | 85.611 |
+| MSE_h1  | 87.275 |
 | MSE_h2  | 95.338 |
 | MSE_h3  | 94.438 |
 | MSE_h4  | 96.753 |
@@ -72,8 +72,8 @@ Olive pollen model:
 | Metric  | Value |
 |---------|-------|
 | R²      | 0 |
-| MSE_h1  | 0.0001 |
 | MSE     | 0.0001 |
+| MSE_h1  | 0.0001 |
 | MSE_h2  | 0.0001 |
 | MSE_h3  | 0.0001 |
 | MSE_h4  | 0.0001 |
@@ -87,8 +87,8 @@ Mugwort pollen model:
 | Metric  | Value |
 |---------|-------|
 | R²      | 0.8818 |
-| MSE_h1  | 1.918 |
 | MSE     | 1.8814 |
+| MSE_h1  | 1.918 |
 | MSE_h2  | 2.1848 |
 | MSE_h3  | 2.7729 |
 | MSE_h4  | 2.758 |
@@ -102,8 +102,8 @@ Ragweed pollen model:
 | Metric  | Value |
 |---------|-------|
 | R²      | 0.7448 |
-| MSE_h1  | 4.5827 |
 | MSE     | 4.4953 |
+| MSE_h1  | 4.5827 |
 | MSE_h2  | 4.1479 |
 | MSE_h3  | 1.7903 |
 | MSE_h4  | 2.7327 |
