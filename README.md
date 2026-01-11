@@ -116,30 +116,33 @@ Ragweed pollen model:
 As we can see from these results, the models for ragweed, mugwort, and grass pollen performed quite well. The model for birch pollen also had a reasonable performance. We generally observe that MSE grows with the forcasting horizon which is expected as we use a autoregressive approach, meaning that errors will propagate. 
 
 Olive pollen is quite rare and low in Stockholm. This means that the task is rather trivial and therefore, we observe a R squared of 0. The model for alder pollen, however, performed quite poorly. When we inspect the data for alder pollen, we can see that it is quite unpredictable. For example, we have this day in the test set:
-2025-03-18T00:00,0.0
-2025-03-18T01:00,0.0
-2025-03-18T02:00,0.0
-2025-03-18T03:00,0.0
-2025-03-18T04:00,0.0
-2025-03-18T05:00,0.0
-2025-03-18T06:00,0.0
-2025-03-18T07:00,0.0
-2025-03-18T08:00,0.0
-2025-03-18T09:00,0.0
-2025-03-18T10:00,0.0
-2025-03-18T11:00,0.0
-2025-03-18T12:00,0.0
-2025-03-18T13:00,0.0
-2025-03-18T14:00,0.0
-2025-03-18T15:00,0.0
-2025-03-18T16:00,0.5
-2025-03-18T17:00,0.0
-2025-03-18T18:00,1.3
-2025-03-18T19:00,9.2
-2025-03-18T20:00,148.1
-2025-03-18T21:00,71.4
-2025-03-18T22:00,21.4
-2025-03-18T23:00,10.9
+| Time (UTC) | Value |
+|------------|-------|
+| 00:00 | 0.0 |
+| 01:00 | 0.0 |
+| 02:00 | 0.0 |
+| 03:00 | 0.0 |
+| 04:00 | 0.0 |
+| 05:00 | 0.0 |
+| 06:00 | 0.0 |
+| 07:00 | 0.0 |
+| 08:00 | 0.0 |
+| 09:00 | 0.0 |
+| 10:00 | 0.0 |
+| 11:00 | 0.0 |
+| 12:00 | 0.0 |
+| 13:00 | 0.0 |
+| 14:00 | 0.0 |
+| 15:00 | 0.0 |
+| 16:00 | 0.5 |
+| 17:00 | 0.0 |
+| 18:00 | 1.3 |
+| 19:00 | 9.2 |
+| 20:00 | 148.1 |
+| 21:00 | 71.4 |
+| 22:00 | 21.4 |
+| 23:00 | 10.9 |
+
 
 Here we can observe that that the levels shoot up from 0 to 148 (the higest recorded value in all of 2025) in a matter of a few hours, making it very difficult to predict. 
 
