@@ -144,7 +144,7 @@ Olive pollen is quite rare and low in Stockholm. This means that the task is rat
 | 23:00 | 10.9 |
 
 
-Here we can observe that that the levels shoot up from 0 to 148 (the higest recorded value in all of 2025) in a matter of a few hours, making it very difficult to predict. 
+Here we can observe that that the levels shoot up from 0 to 148 (the higest recorded value in all of 2025) in a matter of a few hours and then going down quite rapidly again, making it very difficult to predict. 
 
 In a real system, the performance for some of these models are not sufficiently good to use the model, but we decided to publish all of them to enable comparision between them. 
 
