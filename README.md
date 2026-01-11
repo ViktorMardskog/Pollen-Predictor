@@ -37,7 +37,7 @@ Grass pollen model:
 | MSE_h5  | 6.5259 |
 | MSE_h6  | 7.2237 |
 | MSE_h7  | 7.8990 |
-![Grass Feature importance](pollen_model_grass_pollen/images/features.png)
+<!--![Grass Feature importance](pollen_model_grass_pollen/images/features.png) -->
 
 Birch pollen model:
 | Metric  | Value |
@@ -51,7 +51,7 @@ Birch pollen model:
 | MSE_h5  | 23315 |
 | MSE_h6  | 23622 |
 | MSE_h7  | 24482 |
-![Birch Feature importance](pollen_model_birch_pollen/images/features.png)
+<!--![Birch Feature importance](pollen_model_birch_pollen/images/features.png)-->
 
 Alder pollen model:
 | Metric  | Value |
@@ -113,4 +113,4 @@ Ragweed pollen model:
 
 ![Ragweed Feature importance](pollen_model_ragweed_pollen/images/features.png)
 
-
+As we can see from these results, the models for ragweed, mugwort, 
