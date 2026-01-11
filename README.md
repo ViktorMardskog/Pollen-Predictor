@@ -37,6 +37,7 @@ Grass pollen model:
 | MSE_h5  | 6.5259 |
 | MSE_h6  | 7.2237 |
 | MSE_h7  | 7.8990 |
+![Grass Feature importance](pollen_model_grass_pollen/images/features.png)
 
 Birch pollen model:
 | Metric  | Value |
@@ -50,7 +51,7 @@ Birch pollen model:
 | MSE_h5  | 23315 |
 | MSE_h6  | 23622 |
 | MSE_h7  | 24482 |
-
+![Birch Feature importance](pollen_model_birch_pollen/images/features.png)
 
 Alder pollen model:
 | Metric  | Value |
@@ -65,6 +66,8 @@ Alder pollen model:
 | MSE_h6  | 99.829 |
 | MSE_h7  | 100.95 |
 
+![Alder Feature importance](pollen_model_alder_pollen/images/features.png)
+
 Olive pollen model: 
 | Metric  | Value |
 |---------|-------|
@@ -77,6 +80,8 @@ Olive pollen model:
 | MSE_h5  | 0.0001 |
 | MSE_h6  | 0.0001 |
 | MSE_h7  | 0.0001 |
+
+![olive Feature importance](pollen_model_olive_pollen/images/features.png)
 
 Mugwort pollen model: 
 | Metric  | Value |
@@ -91,6 +96,8 @@ Mugwort pollen model:
 | MSE_h6  | 3.6399 |
 | MSE_h7  | 3.5608 |
 
+![Mugwort Feature importance](pollen_model_mugwort_pollen/images/features.png)
+
 Ragweed pollen model:
 | Metric  | Value |
 |---------|-------|
@@ -104,5 +111,6 @@ Ragweed pollen model:
 | MSE_h6  | 3.1645 |
 | MSE_h7  | 6.6614 |
 
+![Ragweed Feature importance](pollen_model_ragweed_pollen/images/features.png)
 
 
