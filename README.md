@@ -1,7 +1,13 @@
 # Pollen-Predictor
 Pollen Predictor
 
-This project is about pollen prediction in Stockholm. Each morning, we ingest:
+This project is about pollen prediction in Stockholm. The project is inspired by the first lab in this course and we have re-used some of the code from our Lab 1 submission: 
+https://github.com/ViktorMardskog/mlfs-book-a-version
+(C version: https://github.com/ViktorMardskog/mlfs-book). 
+
+Similarly to lab 1, we used one file for backfilling data, one for the daily ingest, one for training, and one for inference. Further, we also used an yml with github actions to run the daily ingest and inference and to update the forcast images. 
+
+Each morning, we ingest:
 Max pollen levels for yesterday (for alder pollen, birch pollen, grass pollen, mugwort pollen, olive pollen and ragweed pollen)
 A 9 day weather forecast for the following daily variables:
 - "temperature_2m_mean",
@@ -147,5 +153,7 @@ Olive pollen is quite rare and low in Stockholm. This means that the task is rat
 Here we can observe that that the levels shoot up from 0 to 148 (the higest recorded value in all of 2025) in a matter of a few hours and then going down quite rapidly again, making it very difficult to predict. 
 
 In a real system, the performance for some of these models are not sufficiently good to use the model, but we decided to publish all of them to enable comparision between them. 
+
+We used Hopsworks as a feature store and model registry. Open meteo was used for both weather data and pollen data. 
 
 
